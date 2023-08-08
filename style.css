@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+.card_one {
+    margin: 60px;
+    border: 1px solid #000;
+    width: 15%;
+}
+
+.card_two {
+    margin: 60px;
+    border: 1px solid #000;
+    width: 15%;
+}
+.card-all{
+    display: flex;
+}
+.card_three {
+    margin: 60px;
+    border: 1px solid #000;
+    width: 15%;
+}
+
+.card_img img {
+    padding: 27px 27px 14px 27px;
+}
+
+.card_title,
+.card-count,
+.card-date,
+.card-spotify {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.listen-button {
+    position: relative;
+    padding: 6px 17px 6px 19px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.listen-button:hover {
+    background-color: #168e3a;
+}
+
+.spotify-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
